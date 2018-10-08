@@ -21,6 +21,7 @@ export class HomePage {
      addModal.onDidDismiss((item) => {
        if(item){
          this.saveItem(item);
+        //  console.log(this.Items.length);
        }
      });
      addModal.present();

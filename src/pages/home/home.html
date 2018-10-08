@@ -3,7 +3,7 @@
         <button ion-button menuToggle>
             <ion-icon name="menu"></ion-icon>
           </button>
-        <ion-title>ToDo App</ion-title>
+        <ion-title>JustTodo App</ion-title>
         <ion-buttons end>
             <button ion-button icon-only (click)="addItem()">
                 <ion-icon color="primary" name="add"></ion-icon>
@@ -11,8 +11,15 @@
         </ion-buttons>
     </ion-navbar>
 </ion-header>
- 
+
 <ion-content>
+    <ion-card>
+        <ion-card-header>
+            JustTodo App is a simple to-do list app that helps you to keep your life organized. It is clean, fast, and easy to use. 
+
+          </ion-card-header>
+      
+         
     <ion-list>
         <ion-item *ngFor="let item of Items">            
                 <h2>{{item.title}}</h2>
@@ -23,4 +30,12 @@
             
           </ion-item>
     </ion-list>
+  
+</ion-card>
 </ion-content>
+<ion-footer>
+    <ion-toolbar >
+      <ion-title>You have  {{this.Items.length}} task to do</ion-title>
+      
+    </ion-toolbar>
+  </ion-footer>
