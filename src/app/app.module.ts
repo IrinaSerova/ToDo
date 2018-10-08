@@ -5,12 +5,9 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-<<<<<<< HEAD
 import { RegistrationPage } from '../pages/registration/registration';
-=======
 import { LoginPage } from '../pages/login/login';
 
->>>>>>> 1864ed1cbb0a40a90c69c914b4cdd1ffe0746b78
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -20,11 +17,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-<<<<<<< HEAD
-    RegistrationPage
-=======
-    LoginPage,
->>>>>>> 1864ed1cbb0a40a90c69c914b4cdd1ffe0746b78
+    RegistrationPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -35,11 +29,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ListPage,
-<<<<<<< HEAD
-    RegistrationPage
-=======
-    LoginPage,
->>>>>>> 1864ed1cbb0a40a90c69c914b4cdd1ffe0746b78
+    RegistrationPage,
+    LoginPage
   ],
   providers: [
     StatusBar,
